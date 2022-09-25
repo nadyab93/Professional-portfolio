@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fff2f386e.js" crossorigin="anonymous"></script>
 </head>
   <body>
   <div id="header">
@@ -88,10 +89,35 @@
     </div>
   </div> -->
 
+<!--Services-->
+<div id="Services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="service-List"></div>
+    <div>
+      <i class="fa-sharp fa-solid fa-browser"></i>
+      <h2>Web Design</h2>
+      <p>Create and design websites that are displayed on the internet.</p>
+      <a href="#">learn more</a>
+    </div>
+    <div>
+      <i class="fa-duotone fa-mobile-button"></i>
+      <h2>App Design</h2>
+      <p>Create applications using html,css,javascript</p>
+      <a href="#">learn more</a>
+    </div>
+    <div>
+      <i class="fa-solid fa-code"></i>
+      <h2>Coding</h2>
+      <p>Coding programming languages for front-end design</p>
+      <a href="#">learn more</a>
+      </div>
+    </div>
+</div>
 <script>
   var tablinks = document.getElementsByClassName("tab-links");
   var tabcontents = document.getElementsByClassName("tab-contents");
-  
+
   function opentab(tabname){
     for(tablink of tablinks){
       tablink.classList.remove("active-link");
