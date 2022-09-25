@@ -25,45 +25,68 @@
       </div>
     </div>
   </div>
-  <!---About--->
+
+  <!--About-->
   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="image\laptop-vector_53876-36176.webp" alt="computer image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hey welcome to my porfolio. Im Nadya, a newly Generation graduated junior web Developer bootcamp student. During my training I acquired the technial, behavior, and mindset skills needed to become a web developer.  Please check out my projects to see my work. Feel free to contact me.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>Scrum</span><br>Project Management</li>
+              <li><span>Agile</span><br>Software Development</li>
+            </ul>
+          </div>
+
+          
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022-Present</span><br>Junior Web Developer Student at Generation USA</li>
+              <li><span>2019-2022</span><br>Pharmacy Technician at CVS Pharmacy</li>
+              <li><span>2018-2019</span></br>Pharmacy Technician at Walgreens Pharmacy</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022</span><br>Generation USA</li>
+              <li><span>2018-2019</span><br>New York Medical Career Training Center</li>
+              <li><span>2012-2017</span><br>BA from CUNY York College</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div id="about">
     <div class="container">
         <div class="row">
           <div class="about col-1">
-            <img src="image\laptop-vector_53876-36176.webp">
-            <div class="about col-2"></div>
-            <h1 class="sub-title">About Me</h1>
-            <p>Hey welcome to my porfolio. Im Nadya, a newly Generation graduated junior web Developer bootcamp student. During my training I acquired the technial, behavior, and mindset skills needed to become a web developer.  Please check out my projects to see my work. Feel free to contact me.</p>
-
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-              <p class="tab-links" onclick="opentab('experience')"> Experience</p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li><span>Web Development</span><br>Web App Development</li>
-                <li><span>Scrum</span><br>Project Management</li>
-                <li><span>Agile</span><br>Software Development</li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li><span>2022-Present</span><br>Junior Web Developer Student at Generation USA</li>
-                <li><span>2019-2022</span><br>Pharmacy Technician at CVS Pharmacy</li>
-                <li><span>2018-2019</span></br>Pharmacy Technician at Walgreens Pharmacy</li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>2022</span><br>Generation USA</li>
-                <li><span>2018-2019</span><br>New York Medical Career Training Center</li>
-                <li><span>2012-2017</span><br>BA from CUNY York College</li>
-              </ul>
-            </div>
-        </div>
+            
+          </div>
+          <div class="about col-2"></div>
+            
+            
+            
+            
+           
     </div>
-  </div>
+  </div> -->
 
 <script>
   var tablinks = document.getElementsByClassName("tab-links");
